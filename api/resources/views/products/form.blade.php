@@ -54,12 +54,28 @@
 
             </div>
             <div class="mb-3 ">
+                <label class="form-label" for="exampleCheck1">Categoria</label>
+
+                <select name="category_id">
+                    <option value="1">Tv, Audio y Video</option>
+                    <option value="2" >Celulares, Notebooks y Tecnología</option>
+                    <option value="3">Electrodomésticos y Aires Ac.</option>
+                    <option value="4">Hogar, Muebles y Jardín</option>
+                    <option value="5">Salud, Belleza y Fitness</option>
+                    <option value="6">Bebés y Niños</option>
+                    <option value="7">Más categorías</option>
+                    <option value="8">Tienda Samsung
+                    </option>
+                  </select>
+            </div>
+            <div class="mb-3 ">
                 <label class="form-label" for="exampleCheck1">Imagen</label>
               <input type="file" class="form-control" name="img" >
 
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
+
           <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
